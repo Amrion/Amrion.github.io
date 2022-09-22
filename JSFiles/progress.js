@@ -82,7 +82,7 @@ export default class Progress {
         const circle = document.querySelector('.circle');
 
         value.addEventListener('change', () => {
-            if (value.value <= 50) {
+            if ((value.value >= 0) && (value.value <= 50)) {
                 let deg = 360 - (360 * (100 - value.value)/100 + 90);
 
                 circle.style.background = `linear-gradient(${deg}deg, #f2f2f2 50%, transparent 50%), 

@@ -25,4 +25,3 @@ const app = new App(root, block.render());
 
 app.start();
 block.mount();
-

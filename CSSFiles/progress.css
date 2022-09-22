@@ -10,7 +10,7 @@ body {
 }
 
 .name-block {
-    margin: 3vh 0 0 3vh;
+    margin: 30px 0 0 30px;
     position: absolute;
     color: black;
     font-weight: bold;
@@ -64,14 +64,13 @@ body {
     justify-content: space-around;
     background: white;
     height: 30vw;
-    width: 30vw;
+    width: fit-content;
     align-items: flex-start;
 }
 
 .state {
     display: flex;
     justify-content: flex-start;
-    width: 60%;
     height: 3vw;
 }
 
